@@ -1,0 +1,9 @@
+put the resource pictures into the project
+finish the first framework of the project
+can display the three single fragment with home,message and mine seperately into
+the home activity
+the key points of today:
+the three ways of display of fragment
+single task mode of activity
+the rules of naming variables
+the thought of using base activity and base fragment
