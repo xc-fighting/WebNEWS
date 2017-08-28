@@ -3,12 +3,13 @@
     package="com.xuchen.news" >
 
     <application
+        android:name=".application.webNewsApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".HomeActivity"
+            android:name=".activity.HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
