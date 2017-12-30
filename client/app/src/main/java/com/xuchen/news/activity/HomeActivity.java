@@ -4,8 +4,10 @@ package com.xuchen.news.activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.BroadcastReceiver;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -101,6 +103,7 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
                 }
             }break;
             case R.id.mine_layout_view:{
+
                 mHomeView.setBackgroundResource(R.drawable.comui_tab_home);
                 mPondView.setBackgroundResource(R.drawable.comui_tab_pond);
                 mMessageView.setBackgroundResource(R.drawable.comui_tab_message);
